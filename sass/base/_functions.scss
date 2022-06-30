@@ -1,0 +1,4 @@
+@function barWitdth($money) {
+  $result: $money / 250000 * 100%;
+  @return $result;
+}

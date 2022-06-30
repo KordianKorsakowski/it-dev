@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Segoe';
+  src: url('../fonts/Segoe.ttf');
+}
+
+.secondaray-header {
+  font-size: $fs-big;
+  color: $color-grey-1;
+  font-weight: 400;
+  &__bigger {
+    &-grey {
+      color: $color-grey-7;
+      font-size: 1.8rem;
+    }
+    &-blue {
+      color: $color-blue-6;
+      font-size: 1.8rem;
+    }
+    &-white {
+      color: $color-white;
+      font-size: 1.8rem;
+    }
+  }
+}

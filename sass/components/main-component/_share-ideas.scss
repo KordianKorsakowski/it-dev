@@ -1,0 +1,22 @@
+.section-share {
+  display: flex;
+  gap: 3rem;
+
+  &__photo {
+    width: 17.3rem;
+    img {
+      transform: translateY(-18px);
+    }
+  }
+  &__container {
+    @include centered-vertical-flex(none);
+    width: 100%;
+    gap: 2.8rem;
+    &-text {
+      color: $color-grey-1;
+      font-size: 1.5rem;
+      text-align: right;
+      line-height: 1.8rem;
+    }
+  }
+}

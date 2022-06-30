@@ -1,0 +1,60 @@
+//COLORS
+
+$color-white: #fff;
+
+$color-grey-1: #f5f8fc;
+$color-grey-2: #e3e9f1;
+$color-grey-3: #d9d9d9;
+$color-grey-4: #b3b3b3;
+$color-grey-5: #797979;
+$color-grey-6: #556578;
+$color-grey-7: #394a5e;
+
+$color-yellow-1: #fffa74;
+
+$color-green-1: #a8ff61;
+$color-green-2: #1cbd6a;
+
+$color-red-1: #ff8474;
+$color-red-2: #bb5a28;
+
+$color-blue-1: #66adff;
+$color-blue-2: #4b8bd0;
+$color-blue-3: #2671c4;
+$color-blue-4: #2570c4;
+$color-blue-5: #4e7199;
+$color-blue-6: #004899;
+$color-blue-7: #002754;
+$color-blue-8: #12151e;
+
+$color-viloet-1: #704bec;
+$color-viloet-2: rgb(52, 40, 79);
+
+$color-transparent: rgba(5, 0, 16, 0.3);
+
+$gradient-button-1: linear-gradient(90deg, #2570c5 0%, #004799 100%);
+$gradient-button-2: linear-gradient(0deg, #f5f5f5 0%, #fff 100%);
+
+$gradient-blue-1: linear-gradient(90deg, rgba(73, 138, 208, 0.2) 0%, $color-blue-2 100%);
+$gradient-viloet-1: linear-gradient(90deg, rgba(113, 75, 236, 0.2) 0%, $color-viloet-1 100%);
+$gradient-red-1: linear-gradient(90deg, rgba(189, 90, 40, 0.2) 0%, $color-red-2 100%);
+$gradient-green-1: linear-gradient(90deg, rgba(29, 191, 107, 0.2) 0%, $color-green-2 100%);
+
+//GAP
+$default-gap: 4rem;
+
+// BORDER-RADIUS
+$border-radius: 5px;
+
+// Border
+$border-solid-grey: 2px solid rgba(190, 190, 190, 0.27);
+
+// box-shadow
+$box-shadow-small: drop-shadow(0px 1px 0.5px rgba(0, 0, 0, 0.3));
+//FONTSIZE
+$fs-big: 1.6rem;
+$fs-medium: 1.4rem;
+$fs-small: 1.2rem;
+
+// TRANSITIONA
+$transiton-all-2s: all 0.2s;

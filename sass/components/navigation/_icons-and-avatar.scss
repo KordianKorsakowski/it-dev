@@ -1,0 +1,5 @@
+.icons-bar-and-avatar {
+  @include centered-vertical-flex(none);
+  gap: $default-gap;
+  width: max-content;
+}

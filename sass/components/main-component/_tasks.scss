@@ -1,0 +1,52 @@
+.section-task {
+  display: grid;
+  justify-items: stretch;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $color-blue-6;
+  }
+
+  &__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    i {
+      font-size: 3.6rem;
+      margin-top: 0;
+    }
+    p {
+      font-size: $fs-small;
+      font-family: 'Segoe';
+    }
+
+    &__icon-1,
+    &__number-pending {
+      color: $color-green-1;
+    }
+    &__icon-2,
+    &__number-upcoming {
+      color: $color-yellow-1;
+    }
+    &__icon-3,
+    &__number-outdated {
+      color: $color-red-1;
+    }
+
+    &-text {
+      color: $color-blue-1;
+    }
+
+    &__number-pending,
+    &__number-upcoming,
+    &__number-outdated {
+      transform: translate(25px, 50%);
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-blue-6;
+    }
+  }
+}

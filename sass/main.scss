@@ -1,0 +1,41 @@
+//********---ABSTARCTS---******************
+
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+//********---BASE---******************
+@import './base/base';
+@import './base/typograghy';
+@import './base/utulilities';
+@import './base/functions';
+
+//********---COMPONENTS---******************
+@import './components/button/button';
+//----------nav-----
+@import './components/navigation/logo-nav';
+@import './components/navigation/nav-links';
+@import './components/navigation/icons-and-avatar';
+@import './components/navigation/icons';
+@import './components/navigation/avatar';
+@import './components/navigation/backdrop';
+
+//----------main----
+@import './components/main-component/tasks';
+@import './components/main-component/kpi-budget';
+@import './components/main-component/kpi-ideas';
+@import './components/main-component/industry-news';
+@import './components/main-component/slideshow';
+@import './components/main-component/share-ideas';
+
+//----------foot----
+@import './components/footer/copyright';
+@import './components/footer/footer-nav';
+@import './components/footer/socialmedia';
+
+//********---LAYOUT---******************
+@import './layout/main';
+@import './layout/header';
+@import './layout/footer';
+
+//********---PAGES---******************
+@import './pages/home';

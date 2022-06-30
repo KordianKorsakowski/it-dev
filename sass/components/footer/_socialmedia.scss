@@ -1,0 +1,17 @@
+.socialmedia {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  width: max-content;
+  background-color: $color-transparent;
+  border-radius: $border-radius;
+  padding: 1.5rem 3rem;
+  &__item {
+    display: inline;
+    i {
+      font-size: 1.7rem;
+      color: $color-grey-1;
+      cursor: pointer;
+    }
+  }
+}

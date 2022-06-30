@@ -1,0 +1,6 @@
+.copyright {
+  @include centered-vertical-flex(none);
+  font-size: $fs-medium;
+  color: #f5f8fc80;
+  gap: 1.5rem;
+}

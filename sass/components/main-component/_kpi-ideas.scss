@@ -1,0 +1,44 @@
+.section-ideas {
+  &-photo {
+    @include centered-vertical-flex(center);
+    height: 18.5rem;
+    overflow: hidden;
+
+    img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translateY(10px);
+    }
+  }
+  &__informations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.info {
+  @include flex-column(center);
+  text-align: center;
+  height: 100%;
+  &-number {
+    font-size: 3.6rem;
+  }
+  &-name {
+    font-size: $fs-small;
+    line-height: 30px;
+  }
+  &-blue {
+    color: $color-blue-4;
+  }
+  &-green {
+    color: $color-green-2;
+  }
+  &-red {
+    color: $color-red-2;
+  }
+  &:not(:last-child) {
+    border-right: 1px solid $color-grey-3;
+  }
+}

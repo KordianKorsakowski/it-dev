@@ -1,0 +1,5 @@
+.footer {
+  @include centered;
+  @include centered-vertical-flex(space-between);
+  height: 29.2rem;
+}

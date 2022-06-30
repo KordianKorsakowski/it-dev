@@ -1,0 +1,67 @@
+.main {
+  @include centered;
+  section {
+    @include roundCornerAndShadow(0.3);
+  }
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 64rem 52rem;
+  grid-template-rows: 29.5rem 56.8rem;
+  gap: $default-gap;
+}
+.grid-small {
+  display: grid;
+  gap: $default-gap;
+}
+.grid-small-horizonatlly {
+  display: grid;
+  grid-template-columns: 8rem 52rem;
+  gap: $default-gap;
+}
+.section-task {
+  background-color: $color-blue-7;
+}
+
+.section-budget {
+  @include roundCornerAndShadow(0.2);
+  @include flex-column(none);
+  gap: 3rem;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  &::after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: url(../img/kpi-budget/flower.png);
+    transform: scale(1.21);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -25px;
+    bottom: -23px;
+    z-index: -2;
+  }
+}
+.section-ideas {
+  display: grid;
+  grid-template-rows: 1fr 11rem;
+  background-color: $color-grey-1;
+  overflow: hidden;
+}
+.section-news {
+  @include roundCornerAndShadow(0.2);
+  overflow: hidden;
+  transform: translateY(-5px);
+  height: max-content;
+}
+.section-slider {
+  @include roundCornerAndShadow(0.2);
+  background-color: $color-grey-1;
+}
+.section-share {
+  background-color: $color-blue-8;
+  overflow: hidden;
+}

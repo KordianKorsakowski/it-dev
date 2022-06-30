@@ -1,0 +1,12 @@
+.icons-bar {
+  display: flex;
+  list-style: none;
+  gap: 1.7rem;
+  &__item {
+    display: inline;
+    i {
+      font-size: 1.9rem;
+      color: $color-grey-5;
+    }
+  }
+}

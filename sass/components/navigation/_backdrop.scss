@@ -1,0 +1,39 @@
+.backdrop {
+  @include roundCornerAndShadow(0.2);
+  width: 22rem;
+  height: 26.7rem;
+  background-color: $color-grey-1;
+  border-radius: 0 0 $border-radius $border-radius;
+  overflow: hidden;
+  transform: translateY(2.4rem);
+  position: fixed;
+  &-company {
+    visibility: visible;
+  }
+  &__list {
+    @include flex-column(space-between);
+    list-style: none;
+    height: 100%;
+  }
+  &__element {
+    display: flex;
+    align-items: center;
+
+    &-link {
+      width: 100%;
+      padding: 0.7rem 0 0.7rem 2rem;
+      font-size: 1.3rem;
+      &:link,
+      &:visited {
+        color: $color-blue-5;
+        text-decoration: none;
+      }
+      &:hover,
+      &:active,
+      &-active {
+        background-color: $color-blue-6;
+        color: $color-white !important;
+      }
+    }
+  }
+}

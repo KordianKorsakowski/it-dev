@@ -1,0 +1,31 @@
+.avatar {
+  @include centered-vertical-flex(none);
+  position: relative;
+  &__user-photo {
+    @include centered-vertical-flex(none);
+    border-radius: 100%;
+    border: $border-solid-grey;
+  }
+
+  &__user-check {
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: $color-green-2;
+    border-radius: 100%;
+    right: 0;
+    transform: translateX(50%);
+    filter: $box-shadow-small;
+    i {
+      color: $color-white;
+      width: 10px;
+      height: 6px;
+    }
+    i::before {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

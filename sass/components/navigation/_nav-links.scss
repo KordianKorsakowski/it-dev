@@ -1,0 +1,14 @@
+.navigation-list {
+  display: flex;
+  list-style: none;
+
+  &__link {
+    @include link($color-blue-5, $color-grey-2, 0.8rem 1.7rem);
+    transition: $transiton-all-2s;
+  }
+}
+
+.active-link {
+  background-color: $color-grey-2;
+  border-radius: 100px;
+}
